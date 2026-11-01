@@ -1,0 +1,14 @@
+{
+  "source": "h5ad:NormanWeissman2019_filtered.h5ad; label=perturbation",
+  "n_cells": 111445,
+  "n_genes_used": 2000,
+  "seed": 0,
+  "n_controls": 11855,
+  "n_eligible_singles": 105,
+  "n_evaluated_doubles": 131,
+  "n_audited_singles": 105,
+  "gene_selection_contexts": "control and singles only",
+  "projection": "centered PCA, randomized solver; fit to control and singles",
+  "precision_estimator": "LedoitWolf per context",
+  "input_sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc"
+}

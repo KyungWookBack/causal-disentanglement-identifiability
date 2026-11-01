@@ -1,0 +1,12 @@
+{
+  "record_id": 7041849,
+  "url": "https://zenodo.org/records/7041849",
+  "doi": "10.5281/zenodo.7041849",
+  "title": "scPerturb Single-Cell Perturbation Data: RNA and protein h5ad files",
+  "license": "cc-by-4.0",
+  "filename": "NormanWeissman2019_filtered.h5ad",
+  "size_bytes": 698680199,
+  "checksum": "md5:c870e6967d91c017d9da827bab183cd6",
+  "download_url": "https://zenodo.org/api/records/7041849/files/NormanWeissman2019_filtered.h5ad/content",
+  "sha256": "efde6f5301fe256725dce1d980f37bd96a13481a9a16135515897368e631affc"
+}

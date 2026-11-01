@@ -1,0 +1,33 @@
+{
+  "settings": {
+    "h5ad": "external_data/NormanWeissman2019_filtered.h5ad",
+    "geo_dir": null,
+    "self_test": false,
+    "label_column": "perturbation",
+    "target_separator": "_",
+    "layer": null,
+    "no_normalize": false,
+    "n_hvgs": 2000,
+    "n_pcs": 20,
+    "min_cells_control": 200,
+    "min_cells_single": 50,
+    "min_cells_double": 30,
+    "seed": 0,
+    "skip_lowrank": false
+  },
+  "notes": "Genes and PCA are fitted to controls and singles. Top-100 metrics select genes by observed double effects.",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0",
+    "anndata": "0.12.19"
+  },
+  "source_sha256": {
+    "direction_magnitude_decomposition.py": "43ebbde60331f7b13398c49ae221c02fc48a267b58ba494de2e3bbb5128848ba",
+    "experiment_utils.py": "c40dcd304d6dc33a8381987b3a031faf7ebcf98350cf72aa413ec02580eefaf4",
+    "run_norman_realdata_experiment.py": "4edda6fe237c17b0c554561e83e5406116316e87eb2ba7f0ca22c02057fb6e96"
+  }
+}

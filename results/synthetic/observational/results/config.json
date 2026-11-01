@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "n": 300,
+    "repeats": 200,
+    "taus": [
+      0.0,
+      0.1,
+      0.3,
+      1.0,
+      3.0,
+      10.0,
+      30.0
+    ],
+    "seed": 20260607,
+    "smoke_test": false
+  },
+  "notes": "Latent coordinates, true active sets and leaf counts are given. Noise is scaled by the median true non-leaf Hessian SD at each stage. Each repetition resamples the SCM; tau settings share data and noise draws. Scores average the three nontrivial stages within each repetition. This is conditional leaf selection, not end-to-end layer recovery.",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0",
+    "anndata": null
+  },
+  "source_sha256": {
+    "experiment_utils.py": "c40dcd304d6dc33a8381987b3a031faf7ebcf98350cf72aa413ec02580eefaf4",
+    "run_observational_oracle_probe.py": "f051192357e70539a3a61695e192efca096cb9b3a8061f19899259f56ea8d3c6"
+  }
+}

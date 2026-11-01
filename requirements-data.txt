@@ -1,0 +1,3 @@
+-r requirements.txt
+# Support for reading the scPerturb AnnData file.
+anndata==0.12.19

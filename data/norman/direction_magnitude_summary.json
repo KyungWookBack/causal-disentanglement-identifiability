@@ -1,0 +1,9 @@
+{
+  "n_pairs": 131,
+  "median_r2_mean": 0.7880223364267517,
+  "mean_r2_mean": 0.5918243627953469,
+  "median_direction_cosine": 0.9190709428333812,
+  "median_magnitude_ratio": 1.0969875442155463,
+  "median_r2_scaled": 0.8446913979606397,
+  "n_negative_r2": 10
+}

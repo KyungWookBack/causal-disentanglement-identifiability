@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "sample_sizes": [
+      250,
+      500,
+      1000
+    ],
+    "deltas": [
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "repeats": 30,
+    "mmd_max_n": 0,
+    "null_quantile": 0.95,
+    "seed": 20260607,
+    "smoke_test": false
+  },
+  "notes": "Oracle latent coordinates; biased RBF MMD squared (V-statistic). All samples enter kernel sums by default; blocks only limit memory. The median bandwidth uses at most 400 pooled observations per comparison. The F1 cutoff is the 0.95 quantile of five control-control scores by default. Defaults use n=250,500,1000 and 30 repetitions.",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0",
+    "anndata": "0.12.19"
+  },
+  "source_sha256": {
+    "experiment_utils.py": "c40dcd304d6dc33a8381987b3a031faf7ebcf98350cf72aa413ec02580eefaf4",
+    "run_soft_mmd_probe.py": "a2238b7b80861fabfb59903305583a5d7e75d190586de5e65a0bc22a162caae9"
+  }
+}

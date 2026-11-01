@@ -1,0 +1,30 @@
+{
+  "settings": {
+    "sample_sizes": [
+      250,
+      500,
+      1000,
+      3000,
+      5000,
+      10000
+    ],
+    "repeats": 50,
+    "variance_multiplier": 4.0,
+    "seed": 20260607,
+    "smoke_test": false
+  },
+  "notes": "Linear Gaussian SCM, d=5, p=10; population rank <=2. Sample covariance pseudoinverse uses rcond=1e-10, no ridge. Model parameters and samples are redrawn per repetition. Uncertainty is summarized across repetitions after averaging targets.",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.8.0",
+    "anndata": null
+  },
+  "source_sha256": {
+    "experiment_utils.py": "c40dcd304d6dc33a8381987b3a031faf7ebcf98350cf72aa413ec02580eefaf4",
+    "run_perfect_precision_probe.py": "55f20d0893251d46960ecfbe40913033c68ee54d1215f412c897d56cf6503191"
+  }
+}
